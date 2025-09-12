@@ -1,0 +1,35 @@
+2025-09-11 20:15:43,717 - INFO - Starting PDF processing and vector store creation
+2025-09-11 20:15:43,718 - INFO - Loading PDF files from directory: data/
+2025-09-11 20:15:56,868 - INFO - Loaded 759 documents from data/
+2025-09-11 20:15:56,868 - INFO - Creating text chunks with chunk size 500 and overlap 50
+2025-09-11 20:15:57,037 - INFO - Created 7080 text chunks
+2025-09-11 20:15:57,037 - INFO - Creating and saving FAISS vector store to disk
+2025-09-11 20:15:57,037 - INFO - Initializing HuggingFace Embedding Model
+2025-09-11 20:15:57,038 - ERROR - Failed to initialize HuggingFace Embedding Model: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-09-11 20:15:57,038 - ERROR - Failed to save FAISS vector store: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-09-11 20:15:57,038 - INFO - PDF processing and vector store creation completed successfully
+2025-09-11 20:33:03,050 - INFO - Starting PDF processing and vector store creation
+2025-09-11 20:33:03,051 - INFO - Loading PDF files from directory: data/
+2025-09-11 20:33:16,555 - INFO - Loaded 759 documents from data/
+2025-09-11 20:33:16,556 - INFO - Creating text chunks with chunk size 500 and overlap 50
+2025-09-11 20:33:16,727 - INFO - Created 7080 text chunks
+2025-09-11 20:33:16,728 - INFO - Creating and saving FAISS vector store to disk
+2025-09-11 20:33:16,728 - INFO - Initializing HuggingFace Embedding Model
+2025-09-11 20:33:16,728 - ERROR - Failed to initialize HuggingFace Embedding Model: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2025-09-11 20:33:16,728 - ERROR - Failed to save FAISS vector store: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-09-11 20:33:16,728 - INFO - PDF processing and vector store creation completed successfully
+2025-09-11 20:49:56,382 - INFO - Starting PDF processing and vector store creation
+2025-09-11 20:49:56,383 - INFO - Loading PDF files from directory: data/
+2025-09-11 20:50:11,904 - INFO - Loaded 759 documents from data/
+2025-09-11 20:50:11,904 - INFO - Creating text chunks with chunk size 500 and overlap 50
+2025-09-11 20:50:12,042 - INFO - Created 7080 text chunks
+2025-09-11 20:50:12,061 - INFO - Creating and saving FAISS vector store to disk
+2025-09-11 20:50:12,061 - INFO - Initializing HuggingFace Embedding Model
+2025-09-11 20:50:44,698 - INFO - Use pytorch device_name: cpu
+2025-09-11 20:50:44,699 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 20:50:54,222 - INFO - HuggingFace Embedding Model initialized successfully
+2025-09-11 20:54:11,073 - INFO - Loading faiss with AVX2 support.
+2025-09-11 20:54:11,434 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-11 20:54:11,442 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-11 20:54:11,726 - INFO - FAISS vector store saved successfully at vectorstore/faiss_db
+2025-09-11 20:54:11,727 - INFO - PDF processing and vector store creation completed successfully

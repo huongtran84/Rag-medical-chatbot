@@ -1,0 +1,118 @@
+2025-09-12 11:44:31,208 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 11:44:31,208 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 11:44:51,691 - INFO - 127.0.0.1 - - [12/Sep/2025 11:44:51] "GET / HTTP/1.1" 200 -
+2025-09-12 11:44:52,712 - INFO - 127.0.0.1 - - [12/Sep/2025 11:44:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 11:45:44,719 - INFO - 127.0.0.1 - - [12/Sep/2025 11:45:44] "POST / HTTP/1.1" 200 -
+2025-09-12 11:47:13,152 - INFO - 127.0.0.1 - - [12/Sep/2025 11:47:13] "POST / HTTP/1.1" 200 -
+2025-09-12 12:21:50,911 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 12:21:50,911 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 12:22:20,859 - INFO - 127.0.0.1 - - [12/Sep/2025 12:22:20] "GET / HTTP/1.1" 200 -
+2025-09-12 12:22:21,509 - INFO - 127.0.0.1 - - [12/Sep/2025 12:22:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 12:22:30,190 - INFO - 127.0.0.1 - - [12/Sep/2025 12:22:30] "POST / HTTP/1.1" 200 -
+2025-09-12 12:28:58,391 - INFO - 127.0.0.1 - - [12/Sep/2025 12:28:58] "POST / HTTP/1.1" 200 -
+2025-09-12 12:29:29,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 12:29:29,985 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 12:29:38,942 - INFO - 192.168.1.5 - - [12/Sep/2025 12:29:38] "GET / HTTP/1.1" 200 -
+2025-09-12 12:29:39,680 - INFO - 192.168.1.5 - - [12/Sep/2025 12:29:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 12:29:47,129 - INFO - 192.168.1.5 - - [12/Sep/2025 12:29:47] "POST / HTTP/1.1" 200 -
+2025-09-12 13:44:08,234 - INFO - 127.0.0.1 - - [12/Sep/2025 13:44:08] "GET / HTTP/1.1" 200 -
+2025-09-12 13:44:08,986 - INFO - 127.0.0.1 - - [12/Sep/2025 13:44:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 13:44:17,040 - INFO - 127.0.0.1 - - [12/Sep/2025 13:44:17] "POST / HTTP/1.1" 200 -
+2025-09-12 13:54:02,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 13:54:02,090 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 13:54:24,984 - INFO - 192.168.1.5 - - [12/Sep/2025 13:54:24] "GET / HTTP/1.1" 200 -
+2025-09-12 13:54:25,146 - INFO - 192.168.1.5 - - [12/Sep/2025 13:54:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 13:54:33,453 - ERROR - Error in creating QA chain: load_llm() got an unexpected keyword argument 'model_id'
+2025-09-12 13:54:33,453 - INFO - 192.168.1.5 - - [12/Sep/2025 13:54:33] "POST / HTTP/1.1" 200 -
+2025-09-12 13:59:32,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 13:59:32,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 14:00:18,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 14:00:18,962 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 14:00:30,194 - INFO - 127.0.0.1 - - [12/Sep/2025 14:00:30] "GET / HTTP/1.1" 200 -
+2025-09-12 14:00:30,839 - INFO - 127.0.0.1 - - [12/Sep/2025 14:00:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 14:00:38,336 - ERROR - Error in creating QA chain: load_llm() got an unexpected keyword argument 'model_id'
+2025-09-12 14:00:38,337 - INFO - 127.0.0.1 - - [12/Sep/2025 14:00:38] "POST / HTTP/1.1" 200 -
+2025-09-12 14:03:30,614 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 14:03:30,614 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 14:03:43,151 - INFO - 127.0.0.1 - - [12/Sep/2025 14:03:43] "GET / HTTP/1.1" 200 -
+2025-09-12 14:03:43,849 - INFO - 127.0.0.1 - - [12/Sep/2025 14:03:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 14:03:51,453 - INFO - Loading vector store for context
+2025-09-12 14:03:51,453 - INFO - Loading FAISS vector store from disk
+2025-09-12 14:03:51,453 - INFO - Initializing HuggingFace Embedding Model
+2025-09-12 14:04:02,788 - INFO - Use pytorch device_name: cpu
+2025-09-12 14:04:02,788 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-12 14:04:13,263 - INFO - HuggingFace Embedding Model initialized successfully
+2025-09-12 14:04:13,263 - ERROR - Failed to load FAISS vector store: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-09-12 14:04:13,263 - ERROR - Error in /Users/trandanhhuong/Workspace/Projects/RAG Medical Chatbot/app/components/retriever.py , line 34 : Failed to make a QA chain
+2025-09-12 14:04:13,265 - INFO - 127.0.0.1 - - [12/Sep/2025 14:04:13] "POST / HTTP/1.1" 200 -
+2025-09-12 14:06:38,487 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7600
+ * Running on http://192.168.1.5:7600
+2025-09-12 14:06:38,487 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-12 14:06:59,572 - INFO - 127.0.0.1 - - [12/Sep/2025 14:06:59] "GET / HTTP/1.1" 200 -
+2025-09-12 14:07:09,014 - INFO - Loading vector store for context
+2025-09-12 14:07:09,014 - INFO - Loading FAISS vector store from disk
+2025-09-12 14:07:09,015 - INFO - Initializing HuggingFace Embedding Model
+2025-09-12 14:07:17,280 - INFO - Use pytorch device_name: cpu
+2025-09-12 14:07:17,280 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-12 14:07:21,207 - INFO - HuggingFace Embedding Model initialized successfully
+2025-09-12 14:07:21,211 - INFO - Loading faiss with AVX2 support.
+2025-09-12 14:07:21,310 - INFO - Successfully loaded faiss with AVX2 support.
+2025-09-12 14:07:21,316 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-12 14:07:21,368 - INFO - FAISS vector store loaded successfully
+2025-09-12 14:07:21,368 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-09-12 14:07:21,703 - INFO - LLM loaded successfully from Groq.
+2025-09-12 14:07:21,704 - INFO - Successfully created the QA chain
+2025-09-12 14:07:23,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 14:07:23,351 - INFO - 127.0.0.1 - - [12/Sep/2025 14:07:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-12 14:07:23,358 - INFO - 127.0.0.1 - - [12/Sep/2025 14:07:23] "GET / HTTP/1.1" 200 -
+2025-09-12 14:08:02,097 - INFO - 127.0.0.1 - - [12/Sep/2025 14:08:02] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-09-12 14:08:02,104 - INFO - 127.0.0.1 - - [12/Sep/2025 14:08:02] "GET / HTTP/1.1" 200 -
+2025-09-12 14:08:25,758 - INFO - Loading vector store for context
+2025-09-12 14:08:25,758 - INFO - Loading FAISS vector store from disk
+2025-09-12 14:08:25,758 - INFO - Initializing HuggingFace Embedding Model
+2025-09-12 14:08:25,760 - INFO - Use pytorch device_name: cpu
+2025-09-12 14:08:25,760 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-12 14:08:29,064 - INFO - HuggingFace Embedding Model initialized successfully
+2025-09-12 14:08:29,103 - INFO - FAISS vector store loaded successfully
+2025-09-12 14:08:29,103 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-09-12 14:08:29,185 - INFO - LLM loaded successfully from Groq.
+2025-09-12 14:08:29,186 - INFO - Successfully created the QA chain
+2025-09-12 14:08:29,492 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 14:08:29,498 - INFO - 127.0.0.1 - - [12/Sep/2025 14:08:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-12 14:08:29,502 - INFO - 127.0.0.1 - - [12/Sep/2025 14:08:29] "GET / HTTP/1.1" 200 -
+2025-09-12 14:09:04,392 - INFO - Loading vector store for context
+2025-09-12 14:09:04,393 - INFO - Loading FAISS vector store from disk
+2025-09-12 14:09:04,393 - INFO - Initializing HuggingFace Embedding Model
+2025-09-12 14:09:04,393 - INFO - Use pytorch device_name: cpu
+2025-09-12 14:09:04,393 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-12 14:09:07,722 - INFO - HuggingFace Embedding Model initialized successfully
+2025-09-12 14:09:07,944 - INFO - FAISS vector store loaded successfully
+2025-09-12 14:09:07,944 - INFO - Loading LLM from Groq using LLaMA3 model...
+2025-09-12 14:09:08,026 - INFO - LLM loaded successfully from Groq.
+2025-09-12 14:09:08,027 - INFO - Successfully created the QA chain
+2025-09-12 14:09:08,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 14:09:08,427 - INFO - 127.0.0.1 - - [12/Sep/2025 14:09:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-12 14:09:08,432 - INFO - 127.0.0.1 - - [12/Sep/2025 14:09:08] "GET / HTTP/1.1" 200 -
