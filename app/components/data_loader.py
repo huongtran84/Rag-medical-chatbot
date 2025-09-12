@@ -7,6 +7,7 @@ from app.common.custom_exception import CustomException
 
 logger = get_logger(__name__)
 
+
 def process_and_store_pdfs():
     try:
         logger.info("Starting PDF processing and vector store creation")
