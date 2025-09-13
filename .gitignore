@@ -2,3 +2,6 @@ venv/
 logs/
 rag_medical_chatbot.egg-info/
 .env
+__pycache__/
+*.pyc
+.DS_Store
