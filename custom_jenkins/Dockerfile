@@ -1,25 +1,23 @@
-# Use the Jenkins image as the base image
+# Sử dụng Jenkins LTS làm base image
 FROM jenkins/jenkins:lts
 
-# Switch to root user to install dependencies
+# Chuyển sang root để cài thêm công cụ
 USER root
 
-# Install prerequisites and Docker
-RUN apt-get update -y && \
-    apt-get install -y apt-transport-https ca-certificates curl gnupg software-properties-common && \
-    curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
-    echo "deb [arch=amd64] https://download.docker.com/linux/debian bullseye stable" > /etc/apt/sources.list.d/docker.list && \
-    apt-get update -y && \
-    apt-get install -y docker-ce docker-ce-cli containerd.io && \
-    apt-get clean
+# Cài đặt Docker CLI và các gói cần thiết
+RUN apt-get update && \
+    apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release && \
+    curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg && \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] \
+    https://download.docker.com/linux/debian $(lsb_release -cs) stable" > /etc/apt/sources.list.d/docker.list && \
+    apt-get update && \
+    apt-get install -y docker-ce-cli && \
+    rm -rf /var/lib/apt/lists/*
 
-# Add Jenkins user to the Docker group (create if it doesn't exist)
-RUN usermod -aG staff jenkins
+# Đảm bảo jenkins home vẫn tồn tại
+RUN mkdir -p /var/jenkins_home && chown -R root:root /var/jenkins_home
 
+# Giữ Jenkins chạy bằng root để có quyền dùng docker socket
+USER root
 
-# Create the Docker directory and volume for DinD
-RUN mkdir -p /var/lib/docker
-VOLUME /var/lib/docker
-
-# Switch back to the Jenkins user
-USER jenkins
+# Jenkins sẽ khởi động như mặc định
